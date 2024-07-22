@@ -1,1 +1,6 @@
 .vscode/
+
+*.exe
+
+# generated headers
+inline_det_*.hpp
