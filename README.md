@@ -1,7 +1,7 @@
 # Usage
 
 - Compile inline_det function generator:
-```g++ -o gen inline_det_gen.cpp```
+```g++ -o gen --std=c++20 inline_det_gen.cpp```
 
 - Create inline_det_#.hpp file:
 ```gen <matrix_size>```
@@ -16,7 +16,7 @@
 ```
 
 - Compile main.cpp
-```g++ -o main main.cpp```
+```g++ -o main --std=c++20 main.cpp```
 
 - Run it:
 ```./main```
